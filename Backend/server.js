@@ -44,13 +44,13 @@ async function createTables() {
 // CORS configuration
 const corsOptions = {
     origin: [
-        'http://127.0.0.1:5503',
-        'http://localhost:5503',
-        'http://3.88.203.125:3601',
-        'http://3.88.203.125:7102', // HR Notification Portal
-        'http://3.88.203.125:7103', // Employee Notification Portal
-        'http://localhost:7102',
-        'http://localhost:7103',
+        'http://13.60.228.159:5503',
+        'http://13.60.228.159:5503',
+        'http://13.60.228.159:3601',
+        'http://13.60.228.159:7102', // HR Notification Portal
+        'http://13.60.228.159:7103', // Employee Notification Portal
+        'http://13.60.228.159:7102',
+        'http://13.60.228.159:7103',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],

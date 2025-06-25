@@ -10,7 +10,7 @@ services:
     environment:
       - PG_HOST=postgres
       - PG_USER=postgres
-      - PG_PASSWORD=admin123
+      - PG_PASSWORD=admin234
       - PG_DATABASE=new_employee_db
       - PG_PORT=5432
       - PORT=3601
